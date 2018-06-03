@@ -65,7 +65,7 @@ public class Gobang implements Environment<int[][]> {
 	/**
 	 * 当前棋局，玩家下一步之后，有3个子连一起，并且没有一边被挡住获得返回值
 	 */
-	private static final double PLAYER_NEXT_THREE = -0;
+	private static final double PLAYER_NEXT_THREE = -0.25;
 	/**
 	 * 玩家3个子连一起，并且没有一边被挡住获得返回值
 	 */
@@ -73,7 +73,7 @@ public class Gobang implements Environment<int[][]> {
 	/**
 	 * 当前棋局，玩家下一步之后，有4个子连一起，有一边被挡住获得返回值
 	 */
-	private static final double PLAYER_NEXT_FOUR_BETWEEN = -0;
+	private static final double PLAYER_NEXT_FOUR_BETWEEN = -0.25;
 	/**
 	 * 玩家4个子连一起，有一边被挡住获得返回值
 	 */

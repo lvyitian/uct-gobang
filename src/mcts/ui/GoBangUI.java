@@ -31,7 +31,7 @@ public class GoBangUI extends Application {
 	/**
 	 * 模拟多少秒
 	 */
-	private final static long HOW_MANY_SECONDS = 5 * 1000;
+	private final static long HOW_MANY_SECONDS = 10 * 1000;
 
 	/**
 	 * 黑棋图片
@@ -48,7 +48,7 @@ public class GoBangUI extends Application {
 	/**
 	 * true 电脑黑棋， false 电脑白棋
 	 */
-	private final static boolean isBlack = true;
+	private final static boolean isBlack = false;
 	/**
 	 * 判断应该下黑棋还是白棋用的计数
 	 */
